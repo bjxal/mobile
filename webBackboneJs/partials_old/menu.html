@@ -1,0 +1,11 @@
+<div class="menu-inner">
+    <ul class="navIndex">
+        <%_.each(list,function(item){%>
+        <li>
+            <div class="navIndex-item <%=item.icon%>">
+                <a href="<%=item.link%>"><%=item.name%></a>
+            </div>
+        </li>
+        <%});%>
+    </ul>
+</div>

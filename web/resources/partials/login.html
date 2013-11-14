@@ -1,0 +1,11 @@
+<div class="login_div">
+    <form action="" id="loginForm">
+        <input type="text" name="email" placeholder="<%=i18n.login_mail%>" value="330785652@qq.com"/>
+        <input type="password" name="psd" placeholder="<%=i18n.login_password%>" value="330785652"/>
+        <input type="text" name="code" class="code" placeholder="<%=i18n.login_code%>"/>
+        <img class="codeUrl" title="<%=i18n.login_code_verify%>" src=""/>
+        <input type="hidden" name="sechash" class="codeHash" value="">
+        <input type="submit" id="submit" value="<%=i18n.login_submit%>">
+    </form>
+    <div id="errorTips" style="color: red;"></div>
+</div>
